@@ -1,0 +1,1 @@
+To install: unpack and add to `PATH`.
