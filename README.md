@@ -1,1 +1,7 @@
-To install: unpack and add to `PATH`.
+# Installation
+
+Unpack and add to `PATH`.
+
+# Questions
+
+Please discuss here: https://gitter.im/matter-labs/zinc
