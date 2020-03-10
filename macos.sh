@@ -9,6 +9,7 @@ ZINC_BINARIES_PATH=/tmp/zinc-$VERSION-macos/bin
 ZINC_EXAMPLES_PATH=~/code/src/zpreview
 
 # Download and unzip Zinc binaries to configured path
+mkdir -p $ZINC_BINARIES_PATH && \
 curl -LO https://github.com/zpreview/public/releases/download/$VERSION/zinc-$VERSION-macos.zip && \
 unzip ./zinc-$VERSION-macos.zip -d $ZINC_BINARIES_PATH && \
 rm ./zinc-$VERSION-macos.zip && \
@@ -19,9 +20,4 @@ echo "PATH='$ZINC_BINARIES_PATH:$PATH';" >> ~/.bash_profile && \
 mkdir -p $ZINC_EXAMPLES_PATH/examples && \
 curl -LO https://github.com/zpreview/public/releases/download/$VERSION/examples.zip
 unzip ./examples.zip -d $ZINC_EXAMPLES_PATH/examples && \
-rm ./examples.zip && \
-cd $ZINC_EXAMPLES_PATH && \
-schnorr --help && \
-zargo --help && \
-znc --help && \
-zvm --help
+rm ./examples.zip
