@@ -1,4 +1,4 @@
-# Installation (version 0.1.4)
+# Installation (version 0.1.5)
 
 1. Download the archive for your OS and architecture from https://github.com/zpreview/public/releases
 2. Unpack its contents to some folder and add the folder to your `PATH` environment variable.
