@@ -1,4 +1,8 @@
-# Installation (version 0.1.5)
+# Moved
+
+This repository and the releases have been moved here: https://github.com/matter-labs/zinc
+
+### Installation (version 0.1.5)
 
 1. Download the archive for your OS and architecture from https://github.com/zpreview/public/releases
 2. Unpack its contents to some folder and add the folder to your `PATH` environment variable.
@@ -8,10 +12,10 @@
 
 > **Quick setup on Linux**: Download the [linux.sh](linux.sh) Shell script and run it with `bash linux.sh` to install all the binaries (i.e. schnorr, zargo, znc, zvm) and generate a local folder that is setup with the examples ready for hacking.
 
-# Documentation
+### Documentation
 
 ZincBook: https://zinc.matterlabs.dev/
 
-# Gitter
+### Gitter
 
 Please discuss here: https://gitter.im/matter-labs/zinc
